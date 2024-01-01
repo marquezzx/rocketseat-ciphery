@@ -25,7 +25,7 @@ export default function Header({
           {theme === "light" ? <CiDark size={19} /> : <CiLight size={19} />}
         </button>
         <button
-          onClick={() => window.open("https://github.com/marquezzx")}
+          onClick={() => window.open("https://github.com/marquezzx/rocketseat-ciphery")}
           className="bg-neutral-500 bg-opacity-25 h-8 w-8 rounded-[4px] hover:bg-opacity-40 grid place-items-center"
         >
           <PiGithubLogoLight size={18} />

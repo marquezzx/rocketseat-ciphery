@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-color: #27272a;
+  --background-color: #fafafa;
+}
+
+[data-theme="dark"] {
+  --foreground-color: #e4e4e7;
+  --background-color: #18181b;
+}
+
+* {
+  color: var(--foreground-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
